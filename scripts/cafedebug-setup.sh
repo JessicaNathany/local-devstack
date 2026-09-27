@@ -14,8 +14,8 @@ echo_info "Using MySQL version ${MySQL_VERSION} from docker-compose.yml"
 echo "Starting core services using compose files: ${COMPOSE_FILES[*]}"
 compose down || true
 echo_info "Pulling core service images from Docker Hub..."
-compose pull cafedebugdb minio minio-mc
-compose up -d cafedebugdb minio minio-mc
+compose pull cafedebugdb rustfs rustfs-init
+compose up -d cafedebugdb rustfs rustfs-init
 echo_ok "Core services started successfully"
 
 echo_info "Waiting for MySQL to complete initialization (this may take 1-2 minutes)..."
@@ -91,18 +91,18 @@ else
     exit 1
 fi
 
-echo_info "Ensuring Minio buckets..."
 DEFAULT_BUCKETS=("cafedebug-uploads" "cafedebug-images")
-MINIO_BUCKETS_SCRIPT="${PROJECT_ROOT_DIR}/scripts/create-minio-buckets.sh"
-if [ -f "${MINIO_BUCKETS_SCRIPT}" ]; then
-    if [ -n "${MINIO_BUCKETS:-}" ]; then
-        IFS=',' read -r -a _buckets <<< "${MINIO_BUCKETS}"
-        bash "${MINIO_BUCKETS_SCRIPT}" "${_buckets[@]}"
+echo_info "Ensuring RustFS buckets..."
+RUSTFS_BUCKETS_SCRIPT="${PROJECT_ROOT_DIR}/scripts/create-rustfs-buckets.sh"
+if [ -f "${RUSTFS_BUCKETS_SCRIPT}" ]; then
+    if [ -n "${RUSTFS_BUCKETS:-}" ]; then
+        IFS=',' read -r -a _buckets <<< "${RUSTFS_BUCKETS}"
+        bash "${RUSTFS_BUCKETS_SCRIPT}" "${_buckets[@]}"
     else
-        bash "${MINIO_BUCKETS_SCRIPT}" "${DEFAULT_BUCKETS[@]}"
+        bash "${RUSTFS_BUCKETS_SCRIPT}" "${DEFAULT_BUCKETS[@]}"
     fi
 else
-    echo_warning "Warning: create-minio-buckets.sh not found at ${MINIO_BUCKETS_SCRIPT}; skipping bucket creation"
+    echo_warning "Warning: create-rustfs-buckets.sh not found at ${RUSTFS_BUCKETS_SCRIPT}; skipping bucket creation"
 fi
 
 API_ENABLED="$(get_env_value "CAFEDEBUG_API_ENABLED" || echo "true")"

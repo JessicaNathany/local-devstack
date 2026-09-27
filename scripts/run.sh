@@ -111,7 +111,7 @@ is_service_running() {
     [ "${status}" = "running" ]
 }
 
-# Report long-running services as running; minio-mc is a one-shot job (exited 0 = OK).
+# Report long-running services as running; rustfs-init is a one-shot job (exited 0 = OK).
 check_core_service() {
     local service="$1"
     local strict="${2:-0}"
@@ -134,7 +134,7 @@ check_core_service() {
         return 0
     fi
 
-    if [ "${service}" = "minio-mc" ] && [ "${status}" = "exited" ]; then
+    if [ "${service}" = "rustfs-init" ] && [ "${status}" = "exited" ]; then
         exit_code="$(docker inspect -f '{{.State.ExitCode}}' "${cid}" 2>/dev/null || echo 1)"
         if [ "${exit_code}" = "0" ]; then
             echo_ok "${service}: completed (one-shot)"
@@ -181,15 +181,15 @@ status_cmd() {
     compose ps || true
 
     subtitle "Core services"
-    for service in cafedebugdb minio minio-mc cafedebug-api; do
+    for service in cafedebugdb rustfs rustfs-init cafedebug-api; do
         check_core_service "${service}" 0 || true
     done
 
     subtitle "Quick checks"
-    if curl -fsS --max-time 3 "http://localhost:9000/minio/health/live" >/dev/null 2>&1; then
-        echo_ok "MinIO health endpoint is reachable."
+    if curl -fsS --max-time 3 "http://localhost:9000/health" >/dev/null 2>&1; then
+        echo_ok "RustFS health endpoint is reachable."
     else
-        echo_warning "MinIO health endpoint is not reachable (http://localhost:9000/minio/health/live)."
+        echo_warning "RustFS health endpoint is not reachable (http://localhost:9000/health)."
     fi
 
     local api_port
@@ -251,7 +251,7 @@ doctor_cmd() {
     fi
 
     subtitle "Service runtime"
-    for service in cafedebugdb minio minio-mc cafedebug-api; do
+    for service in cafedebugdb rustfs rustfs-init cafedebug-api; do
         if ! check_core_service "${service}" 1; then
             failed=1
         fi
@@ -272,10 +272,10 @@ doctor_cmd() {
         failed=1
     fi
 
-    if curl -fsS --max-time 5 "http://localhost:9000/minio/health/ready" >/dev/null 2>&1; then
-        echo_ok "MinIO readiness check passed."
+    if curl -fsS --max-time 5 "http://localhost:9000/health" >/dev/null 2>&1; then
+        echo_ok "RustFS readiness check passed."
     else
-        echo_error "MinIO readiness check failed (http://localhost:9000/minio/health/ready)."
+        echo_error "RustFS readiness check failed (http://localhost:9000/health)."
         failed=1
     fi
 
