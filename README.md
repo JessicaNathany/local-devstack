@@ -4,6 +4,25 @@
 | |   / _ \ / __/ _` | | | | | |/ _ \ \ / /| __/ _` |/ __| |/ /
 | |__| (_) | (_| (_| | | | |_| |  __/\ V /| || (_| | (__|   <
 |_____\___/ \___\__,_|_| |____/ \___| \_/ \__\__,_|\___|_|\_\
+
+
+                 .-----------------------------------------------.
+                 |  o  local-devstack :: local environment        |
+                 |------------------------------------------------|
+                 |      $ docker compose up                       |
+                 |                                                |
+                 |     +--------+    +--------+    +--------+     |
+                 |     |   BD   | -> |   API  | -> |   UI   |     |
+                 |     +--------+    +--------+    +--------+     |
+                 |                                                |
+                 |  [OK] Your local environment is ready to build.|
+                 '------------------------------------------------'
+                              \____________________/
+                                   |        |
+                               ___ |________|___
+                              /________________\
+                             /__[]__[]__[]__[]__\
+
 ```
 
 The Local Devstack is a project is for automation, allowing you to run various projects in localy containers. You can configure any APIs and databases using shell scripts that run within the containers.
