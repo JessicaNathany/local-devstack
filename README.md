@@ -6,7 +6,7 @@
 |_____\___/ \___\__,_|_| |____/ \___| \_/ \__\__,_|\___|_|\_\
 ```
 
-The Local devstack is a project is for automation, allowing you to run various projects in localy containers. You can configure any APIs and databases using shell scripts that run within the containers.
+The Local Devstack is a project is for automation, allowing you to run various projects in localy containers. You can configure any APIs and databases using shell scripts that run within the containers.
 
 ## Project information 📑
 
