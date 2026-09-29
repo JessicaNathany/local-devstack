@@ -24,8 +24,8 @@ else
     BUCKETS=("cafedebug-uploads" "cafedebug-images")
 fi
 
-RUSTFS_ACCESS_KEY="$(get_env_value "RUSTFS_ACCESS_KEY" || echo "dev-access-key")"
-RUSTFS_SECRET_KEY="$(get_env_value "RUSTFS_SECRET_KEY" || echo "dev-secret-key")"
+RUSTFS_ACCESS_KEY="$(get_env_value "RUSTFS_ACCESS_KEY" || echo "minioadmin")"
+RUSTFS_SECRET_KEY="$(get_env_value "RUSTFS_SECRET_KEY" || echo "minioadmin")"
 
 AWS_CMDS=("aws --endpoint-url http://rustfs:9000 s3api list-buckets >/dev/null")
 for b in "${BUCKETS[@]}"; do

@@ -49,7 +49,7 @@ Expected local endpoints:
 
 - MySQL: `localhost:3307` (`root` / `root`)
 - RustFS API: `http://localhost:9000`
-- RustFS Console: `http://localhost:9001` (`dev-access-key` / `dev-secret-key`)
+- RustFS Console: `http://localhost:9001` (`minioadmin` / `minioadmin`)
 
 ## 4) Editing Rules
 
