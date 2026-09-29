@@ -73,7 +73,7 @@ services:
       Storage__AWS__S3__ForcePathStyle: "true"
       Storage__AWS__S3__UseHttp: "true"
       AWS_ACCESS_KEY_ID: ${RUSTFS_ACCESS_KEY:-dev-access-key}
-      AWS_SECRET_KEY: ${RUSTFS_SECRET_KEY:-dev-secret-key}
+      AWS_SECRET_ACCESS_KEY: ${RUSTFS_SECRET_KEY:-dev-secret-key}
       SMTP_SERVER: localhost
       SMTP_PORT: 25
       SMTP_USERNAME: dev
