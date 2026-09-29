@@ -25,7 +25,9 @@
 
 ```
 
-The Local Devstack is a project is for automation, allowing you to run various projects in localy containers. You can configure any APIs and databases using shell scripts that run within the containers.
+Local DevStack provides a reproducible, container-based development environment for running APIs, databases, and supporting services consistently across local machines.
+
+Clone the project, adapt the Compose configuration to your needs, and run your services in a shared local stack instead of configuring each dependency manually. The repository includes practical service examples, database seed data, and test-data mocks to help teams bootstrap and validate integrations quickly
 
 ## Project information 📑
 
