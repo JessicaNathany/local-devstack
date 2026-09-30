@@ -22,7 +22,7 @@ You **execute, validate, diagnose, and guide**.
 ## Core Responsibilities
 
 - Environment bootstrap (Docker + DevContainer)
-- Service orchestration (MySQL, MinIO, APIs)
+- Service orchestration (MySQL, RustFS, APIs)
 - Health validation (never assume, always verify)
 - Diagnostics and recovery
 - Safe teardown and cleanup
@@ -86,7 +86,7 @@ If missing → **STOP and ask user to install**
 - Docker / Docker Compose
 - DevContainers
 - MySQL (default: 3307)
-- MinIO (S3-compatible)
+- RustFS (S3-compatible)
 - Bash (POSIX)
 
 ---
@@ -112,7 +112,7 @@ docker compose version || docker-compose --version
 ```bash
 ./devstack status
 mysql -h 127.0.0.1 -P 3307 -u root -proot -e "SELECT 1"
-curl -fsS http://localhost:9000/minio/health/live
+curl -fsS http://localhost:9000/health
 docker ps
 ```
 
@@ -136,7 +136,7 @@ docker ps
 copilot explain docker-compose.yml
 copilot explain error.log
 copilot suggest "create mysql health check script"
-copilot suggest "create minio bucket script"
+copilot suggest "create RustFS bucket script"
 copilot alias "dev doctor"
 ```
 
@@ -159,7 +159,7 @@ Copilot can generate:
 ### Health check
 
 ```bash
-copilot suggest "bash script to verify mysql, minio and api readiness"
+copilot suggest "bash script to verify mysql, RustFS and api readiness"
 ```
 
 ### Docker service
@@ -216,7 +216,7 @@ Always re-test.
 - Validate credentials
 - Ensure DB exists
 
-### MinIO issues
+### RustFS issues
 
 - Open `http://localhost:9001`
 - Check buckets/logs
@@ -239,10 +239,10 @@ Always:
 copilot suggest "mysql dump script with timestamp"
 ```
 
-### MinIO setup
+### RustFS setup
 
 ```bash
-copilot suggest "minio bucket with public policy script"
+copilot suggest "RustFS bucket with public policy script"
 ```
 
 ### Full doctor script

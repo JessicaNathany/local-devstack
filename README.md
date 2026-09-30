@@ -86,7 +86,7 @@ To inspect current container/service status:
 This command will:
 - Show Docker daemon availability
 - Show compose service status
-- Run quick MySQL and MinIO checks
+- Run quick MySQL and RustFS checks
 
 ### Environment Doctor
 To run a full diagnostic suite:
@@ -99,7 +99,7 @@ This command will:
 - Validate Docker and Compose availability
 - Validate compose configuration
 - Verify core services are running
-- Execute MySQL and MinIO health checks
+- Execute MySQL and RustFS health checks
 
 ### Devstack Version
 To show current `devstack` version from `.env`:

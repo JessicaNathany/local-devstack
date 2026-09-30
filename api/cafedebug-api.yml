@@ -27,13 +27,14 @@ services:
       JwtSettings__SigningKey: ${JWT_SIGNING_KEY:-change-this-local-dev-signing-key-min-32-chars}
       JwtSettings__ValidForMinutes: ${JWT_VALID_FOR_MINUTES:-15}
       JwtSettings__RefreshTokenValidForMinutes: ${JWT_REFRESH_VALID_FOR_MINUTES:-10080}
-      Storage__AWS__S3__ServiceUrl: http://minio:9000
+      Storage__AWS__S3__ServiceUrl: http://rustfs:9000
       Storage__AWS__S3__Bucket: cafedebug-uploads
       Storage__AWS__S3__Region: us-east-1
+      Storage__AWS__S3__BaseUrl: http://localhost:9000/cafedebug-uploads
       Storage__AWS__S3__ForcePathStyle: "true"
       Storage__AWS__S3__UseHttp: "true"
-      AWS_ACCESS_KEY_ID: ${MINIO_ROOT_USER:-minioadmin}
-      AWS_SECRET_KEY: ${MINIO_ROOT_PASSWORD:-minioadmin}
+      AWS_ACCESS_KEY_ID: ${RUSTFS_ACCESS_KEY:-minioadmin}
+      AWS_SECRET_ACCESS_KEY: ${RUSTFS_SECRET_KEY:-minioadmin}
       SMTP_SERVER: localhost
       SMTP_PORT: 25
       SMTP_USERNAME: dev
@@ -43,7 +44,7 @@ services:
     depends_on:
       cafedebugdb:
         condition: service_started
-      minio:
+      rustfs:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:8080/health || exit 1"]
