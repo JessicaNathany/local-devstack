@@ -72,9 +72,13 @@ To stop all containers and clean up the environment:
 ```
 
 This command will:
-- Stop all running containers
-- Remove containers and associated resources
-- Clean up the environment
+- Ask for confirmation before removing this devstack's containers, volumes, and images
+- Remove orphaned containers created by previous versions of this Compose configuration
+- Pull the current service images from Docker Hub during the next `./devstack -up`
+
+It does not run global Docker cleanup commands such as `docker system prune`, `docker volume prune`,
+or `docker rmi -f $(docker images -q)`, because those can remove resources belonging to other local
+projects.
 
 ### Environment Status
 To inspect current container/service status:

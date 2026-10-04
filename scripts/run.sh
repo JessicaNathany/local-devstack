@@ -23,7 +23,7 @@ show_help() {
     echo ""
     echo "Options:"
     echo "  -up               Execute environment bootstrap (cafedebug-setup.sh)"
-    echo "  -d                Execute environment teardown (clear-setup.sh)"
+    echo "  -d                Remove devstack containers, volumes, and images after confirmation"
     echo "  status            Show container and service status"
     echo "  doctor            Run full environment diagnostics"
     echo "  version           Show devstack version from .env"
