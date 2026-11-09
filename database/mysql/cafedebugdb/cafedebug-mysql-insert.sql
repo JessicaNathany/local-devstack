@@ -14,7 +14,7 @@ VALUES(
 INSERT INTO Banner (Name, UrlImage, Url, StartDate, EndDate, Status, Active, UpdatedAt, CreatedAt, `Order`) 
 VALUES(
 'Banner perfil', 
-'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/e50f2bcf-597f-4017-9cd4-1163edce4598banner-perfil.png', 
+'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/Capa_Perfil.png', 
 null, 
 '2020-12-18 00:00:00', 
 '2030-12-31 00:00:00', 'published', 1, NOW(), NOW(), 2);
