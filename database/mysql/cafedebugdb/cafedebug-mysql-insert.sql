@@ -22,8 +22,7 @@ null,
 INSERT INTO Banner (Name, UrlImage, Url, StartDate, EndDate, Status, Active, UpdatedAt, CreatedAt, `Order`) 
 VALUES(
 'Discord do Café Debug', 
-'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/23ff38aa-41c1-42c6-8dc1-e8391bf53d23banner-discord-new.jpg', 
-'https://discord.gg/hGpFPsV2gB', 
+'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/banner-discord.jpg', 
 '2021-08-28 00:00:00', 
 '2030-12-31 00:00:00', 'published', 1, NOW(), NOW(), 3);
 
