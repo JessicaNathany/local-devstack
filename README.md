@@ -29,6 +29,8 @@ Local DevStack provides a reproducible, container-based development environment 
 
 Clone the project, adapt the Compose configuration to your needs, and run your services in a shared local stack instead of configuring each dependency manually. The repository includes practical service examples, database seed data, and test-data mocks to help teams bootstrap and validate integrations quickly
 
+Legacy MinIO data under `svc/minio/data/` is local runtime data and is ignored by Git. The current RustFS service uses a separate Docker volume; the legacy data is not automatically migrated or deleted.
+
 ## Project information 📑
 
 - 📂 **Applications** - each application should have a folder and contain its own separate informations
