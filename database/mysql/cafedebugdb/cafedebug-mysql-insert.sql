@@ -5045,6 +5045,212 @@ VALUES(
             '2026-08-27 01:00:00', '["carreira", "product owner", "negócio"]', 'published', 210, 4, 1, 1, '2026-05-19 01:00:00', null);
 
 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Status, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy)
+VALUES(
+          '#198 Arquitetura Hexagonal: Quando faz sentido usar?',
+          '<p>Neste epis&oacute;dio, conversamos com a Mayumi Shingaki para entender melhor a Arquitetura Hexagonal, quais problemas ela busca resolver, como aplicar seus conceitos na pr&aacute;tica e quais s&atilde;o seus benef&iacute;cios e desafios. Tamb&eacute;m vamos discutir quando faz sentido utiliz&aacute;-la e quando ela pode acabar trazendo complexidade desnecess&aacute;ria para o projeto.&nbsp;<br /><br /></p>
+            <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+            <p><strong>Introdu&ccedil;&atilde;o &agrave; convidada</strong></p>
+            <ul>
+            <li>Antes da arquitetura hexagonal: qual problema estamos tentando resolver?</li>
+            <li>Como normalmente come&ccedil;a uma aplica&ccedil;&atilde;o</li>
+            <li>O que &eacute; arquitetura hexagonal?</li>
+            <li>A origem do conceito e a proposta do Alistair Cockburn</li>
+            <li>Ports e Adapters</li>
+            <li>O que acontece quando a aplica&ccedil;&atilde;o come&ccedil;a a crescer?</li>
+            <li>Quando faz sentido utilizar a arquitetura hexagonal</li>
+            </ul>
+            <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+            <ul>
+            <li>💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+            <li>☕ Mais epis&oacute;dios:<a href="https://omny.fm/shows/cafe-de-bug"> Ou&ccedil;a aqui</a></li>
+            <li>📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+            <li>🌐 Comunidade Agile Brazil&nbsp; <a href="https://www.agilebrazil.com/2026/">Link</a></li>
+            <li>🌐 Link promocional para ouvintes do <strong>Caf&eacute; Debug</strong> Agile Brazil - Foz do Igua&ccedil;u&nbsp; <a href="https://www.even3.com.br/agilebrazil2026-746128?cp=CafeDebug">Link</a>&nbsp;</li>
+            <li>🌐 Instagram da Mayumi <a href="https://www.instagram.com/mayulabs">Link</a></li>
+            <li>🌐 Artigo arquitetura hexagonal <a href="https://alistair.cockburn.us/hexagonal-architecture">Link</a></li>
+            <li>🌐 Artigo Amazon arquitetura hexagonal <a href="https://docs.aws.amazon.com/pt_br/prescriptive-guidance/latest/cloud-design-patterns/hexagonal-architecture.html">Link</a></li>
+            <li>🌐 Artigo Geeksforgeeks arquitetura hexagonal <a href="https://www.geeksforgeeks.org/system-design/hexagonal-architecture-system-design/">Link</a></li>
+            <li>🌐 MVP Conf <a href="https://www.geeksforgeeks.org/system-design/hexagonal-architecture-system-design/">Link</a></li>
+            <li>🌐 Womakerscode <a href="https://www.womakerscode.org/">Link</a></li>
+            </ul>
+            <p><strong>👥 </strong><strong>Participantes</strong></p>
+            <ul>
+            <li>J&eacute;ssica Nathany &ndash; Senior Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+            <li>Mayumi Shingaki &ndash;&nbsp; Tech lead no Ita&uacute;: <a href="https://www.linkedin.com/in/mayumi-shingaki/">Link</a></li>
+            </ul>
+            <p>🎧&nbsp;<strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+            <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <a href="mailto:debugcafe@gmail.com"><strong>debugcafe@gmail.com</strong></a></p>',
+            'Neste episódio, conversamos com a Mayumi Shingaki para entender melhor a Arquitetura Hexagonal, quais problemas ela busca resolver, como aplicar seus conceitos na prática e quais são seus benefícios e desafios. Também vamos discutir quando faz sentido utilizá-la e quando ela pode acabar trazendo complexidade desnecessária para o projeto.',
+            'https://omny.fm/shows/caf-debug-seu-podcast-de-tecnologia/198-arquitetura-hexagonal-quando-faz-sentido-usar',
+            'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/hexagonal.jpg',
+            '2026-09-14 01:00:00', '["arquitetura de software", "hexagonal"]', 'published', 211, 1, 1, 1, '2026-09-14 01:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Status, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy)
+VALUES(
+            '#199 Além do Scrum: Agilidade que gera impacto real no negócio',
+            '<p>Neste epis&oacute;dio, conversamos com o Luciano Oliveira e Luiz Felipe Gon&ccedil;alves (Foca) para entender como a agilidade pode ir al&eacute;m de Scrum, cerim&ocirc;nias e frameworks para realmente gerar resultados para o neg&oacute;cio.&nbsp;Vamos discutir o papel do Scrum Master, os desafios de conectar times de tecnologia aos objetivos da empresa e como medir se uma transforma&ccedil;&atilde;o &aacute;gil est&aacute;, de fato, trazendo valor.&nbsp;<br /><br /></p>
+            <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+            <ul>
+            <li>Apresenta&ccedil;&atilde;o do Luciano e do Foca</li>
+            <li>Trajet&oacute;ria de cada um na &aacute;rea de agilidade</li>
+            <li>O que significa ser &aacute;gil de verdade?</li>
+            <li>Quando a agilidade vira apenas cerim&ocirc;nias, processos e ferramentas</li>
+            <li>Papel do Scrum Master, Agile Master e Agile Coach?</li>
+            <li>Como conectar o trabalho dos times aos objetivos estrat&eacute;gicos da empresa?</li>
+            <li>Como deixar de medir apenas entregas e come&ccedil;ar medir impacto</li>
+            <li>Como evitar que m&eacute;tricas sejam utilizadas para comparar ou pressionar times?</li>
+            <li>Sobre o evento Agile Brazil - Foz do Igua&ccedil;u</li>
+            <li>Considera&ccedil;&otilde;es finais</li>
+            </ul>
+            <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+            <ul>
+            <li>💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+            <li>☕ Mais epis&oacute;dios:<a href="https://omny.fm/shows/cafe-de-bug"> Ou&ccedil;a aqui</a></li>
+            <li>📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+            <li>🌐 Confer&ecirc;ncia Agile Brazil&nbsp; <a href="https://www.agilebrazil.com/2026/">Link</a></li>
+            <li>🌐 Link promocional para ouvintes do <strong>Caf&eacute; Debug</strong> Agile Brazil - Foz do Igua&ccedil;u&nbsp; <a href="https://www.even3.com.br/agilebrazil2026-746128?cp=CafeDebug">Link</a>&nbsp;<br /><br /></li>
+            </ul>
+            <p><strong>👥 </strong><strong>Participantes</strong></p>
+            <ul>
+            <li>J&eacute;ssica Nathany &ndash; Senior Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+            <li>Luciano Oliveira &ndash;&nbsp; Consultor de Inova&ccedil;&atilde;o, Estrat&eacute;gia e Agilidade na Go-K: <a href="https://www.linkedin.com/in/lucianogo/">Link</a></li>
+            <li>Luiz Felipe Gon&ccedil;alves (Foca) &ndash; Consultor de Inova&ccedil;&atilde;o, Estrat&eacute;gia e Agilidade na Go-K: <a href="https://www.linkedin.com/in/luizofoca/">Link</a></li>
+            </ul>
+            <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+            <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <a href="mailto:debugcafe@gmail.com"><strong>debugcafe@gmail.com</strong></a></p>',
+            'Neste episódio, conversamos com o Luciano Oliveira e Luiz Felipe Gonçalves (Foca) para entender como a agilidade pode ir além de Scrum, cerimônias e frameworks para realmente gerar resultados para o negócio. Vamos discutir o papel do Scrum Master, os desafios de conectar times de tecnologia aos objetivos da empresa e como medir se uma transformação ágil está, de fato, trazendo valor.',
+            'https://omny.fm/shows/caf-debug-seu-podcast-de-tecnologia/199-al-m-do-scrum-como-fazer-a-agilidade-trazer-resultado-real-para-o-neg-cio',
+            'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/scrum.jpg',
+            '2026-09-28 01:00:00', '["agilidade", "scrum master"]', 'published', 212, 32, 1, 1, '2026-09-28 01:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Status, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy)
+VALUES(
+          '#200 Browser with built-in AI agents - Strawberry (ENG)',
+          '<p>In this episode, we talk to Laurits Wehding, a 19-year-old smooth operator in Strawberry, an AI agent platform engineered to automate real workflows directly inside the browser tools people use every day. We dive deep into what makes an "agentic browser" fundamentally different from traditional extensions, and explore the role of Model Context Protocol (MCP) in standardizing context across LLMs and local environments.</p>
+            <p>&nbsp;</p>
+            <p><strong>🧩 </strong><strong>Topics to discuss</strong><strong>:</strong></p>
+            <ul>
+            <li>Laurits Wehding (19-year-old co-founder/builder at Strawberry)&nbsp;</li>
+            <li>Building a startup at a young age: Motivation, challenges, and key learnings in the fast-moving AI landscape.&nbsp;</li>
+            <li>How does Strawberry Browser work?</li>
+            <li>The Agentic Browser: What is an "Agentic Browser"? Moving beyond standard chatbots or browser extensions to a native agent workspace&nbsp;</li>
+            <li>How Strawberry operates inside logged-in web sessions, executing real-world tasks across multiple tabs while maintaining human-in-the-loop safety&nbsp;</li>
+            <li>Real-world use cases: Sales prospecting, market research, recruiting, meeting transcription, and task automation&nbsp;</li>
+            <li>Understanding Model Context Protocol (MCP) and its role in connecting LLMs/Agents with external tools and context&nbsp;</li>
+            <li>Architecture security</li>
+            <li>The Future of Software Development &amp; AI Agents&nbsp;</li>
+            </ul>
+            <p><strong>🔗</strong><strong>Useful links</strong></p>
+            <ul>
+            <li>💬 Our Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+            <li>☕ More episodes:<a href="https://omny.fm/shows/cafe-de-bug"> Ou&ccedil;a aqui</a></li>
+            <li>📖 Book <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+            <li>🌐 Agile Brazil Community&nbsp; <a href="https://www.agilebrazil.com/2026/">Link</a></li>
+            <li>🌐 Link promocional para ouvintes do <strong>Caf&eacute; Debug</strong> Agile Brazil - Foz do Igua&ccedil;u&nbsp; <a href="https://www.even3.com.br/agilebrazil2026-746128?cp=CafeDebug">Link</a>&nbsp;</li>
+            <li>🌐 Strawberry <a href="https://strawberrybrowser.com/">Link</a></li>
+            <li>🌐 Create Strawberry account&nbsp; <a href="https://strawberrybrowser.com/signup?via=cafedebug&amp;by=Cafe+Debug&amp;utm_source=bio&amp;utm_medium=creator&amp;utm_campaign=cafedebug">Link</a></li>
+            </ul>
+            <p><strong>👥 </strong><strong>Participants</strong></p>
+            <ul>
+            <li>J&eacute;ssica Nathany &ndash; Senior Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+            <li>Laurits Wehding &ndash;&nbsp; Smooth Operator in Strawberry: <a href="https://www.linkedin.com/in/lauritswehding/">Link</a></li>
+            </ul>
+            <p><br />🎧 <strong>Editor:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+            <p>📬 Questions<br />Send email to: <a href="mailto:debugcafe@gmail.com"><strong>debugcafe@gmail.com</strong></a></p>',
+            'In this episode, we talk to Laurits Wehding, a 19-year-old smooth operator in Strawberry, an AI agent platform engineered to automate real workflows directly inside the browser tools people use every day. We dive deep into what makes an "agentic browser" fundamentally different from traditional extensions, and explore the role of Model Context Protocol (MCP) in standardizing context across LLMs and local environments.',
+            'https://omny.fm/shows/caf-debug-seu-podcast-de-tecnologia/200-browser-with-built-in-ai-agents-strawberry',
+            'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/strawberry.jpg',
+            '2026-10-19 01:00:00', '["IA", "agents", "MCP"]', 'published', 213, 4, 1, 1, '2026-10-19 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Status, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy)
+VALUES(
+          '#201 Cybersecurity - Incidentes envolvendo Agents autonômos',
+          '<p>Neste epis&oacute;dio, conversamos com Marcelo Silva para explorar os riscos de seguran&ccedil;a relacionados a agentes aut&ocirc;nomos de intelig&ecirc;ncia artificial. Vamos analisar incidentes reais em que agentes foram envolvidos em acessos n&atilde;o autorizados e ataques a sistemas, entender como essas situa&ccedil;&otilde;es aconteceram e discutir como empresas podem se proteger. Tamb&eacute;m vamos abordar o papel dos profissionais de cybersecurity nesse novo cen&aacute;rio.<br /><br /></p>
+            <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+            <ul>
+            <li>Introdu&ccedil;&atilde;o ao convidado</li>
+            <li>Como a intelig&ecirc;ncia artificial est&aacute; transformando o cen&aacute;rio de seguran&ccedil;a.</li>
+            <li>Por que agentes aut&ocirc;nomos representam um novo desafio para as equipes de seguran&ccedil;a?</li>
+            <li>Quando agentes de intelig&ecirc;ncia artificial s&atilde;o uma amea&ccedil;a?</li>
+            <li>Um agente pode ultrapassar os limites definidos por seus desenvolvedores?</li>
+            <li>Qual &eacute; a diferen&ccedil;a entre um ataque realizado por uma pessoa com aux&iacute;lio de IA e um ataque executado por agentes com maior autonomia?</li>
+            <li>Como aplicar o princ&iacute;pio do menor privil&eacute;gio aos agentes de IA?</li>
+            <li>Como avaliar os riscos antes de adotar agentes de IA em processos corporativos?</li>
+            <li>Carreira: Quais conhecimentos s&atilde;o fundamentais para come&ccedil;ar na &aacute;rea?</li>
+            <li>Diferen&ccedil;as entre AppSec, Cloud Security, Red Team, Blue Team e AI Security.</li>
+            <li>Como come&ccedil;ar a estudar seguran&ccedil;a de aplica&ccedil;&otilde;es com IA e agentes aut&ocirc;nomos?</li>
+            <li>Futuro do Cybersecurity na era dos agentes</li>
+            </ul>
+            <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+            <ul>
+            <li>💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+            <li>☕ Mais epis&oacute;dios:<a href="https://omny.fm/shows/cafe-de-bug"> Ou&ccedil;a aqui</a></li>
+            <li>📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+            <li>🌐 Comunidade Agile Brazil&nbsp; <a href="https://www.agilebrazil.com/2026/">Link</a></li>
+            <li>🌐 OWASP Top 10 for Agentic Applications 2026 <a href="https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/">Link</a></li>
+            </ul>
+            <p><strong>🌐 Reuters: How one hacker used AI agents and broke into scores&nbsp; <a href="https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/?utm_source=chatgpt.com">Link</a></strong><strong>🌐 Palo Alto Networks:: An AI-Assisted Cyber attack inside a Unit 42&nbsp; <a href="https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/?utm_source=chatgpt.com">Link</a></strong></p>
+            <p><strong>👥 </strong><strong>Participantes</strong></p>
+            <ul>
+            <li>J&eacute;ssica Nathany &ndash; Senior Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+            <li>Marcelo Silva &ndash;&nbsp; Security Engineer na CTC: <a href="https://www.linkedin.com/in/msouzad28/">Link</a></li>
+            </ul>
+            <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+            <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <a href="mailto:debugcafe@gmail.com"><strong>debugcafe@gmail.com</strong></a></p>',
+          'Neste episódio, conversamos com Marcelo Silva para explorar os riscos de segurança relacionados a agentes autônomos de inteligência artificial. Vamos analisar incidentes reais em que agentes foram envolvidos em acessos não autorizados e ataques a sistemas, entender como essas situações aconteceram e discutir como empresas podem se proteger. Também vamos abordar o papel dos profissionais de cybersecurity nesse novo cenário.',
+            'https://omny.fm/shows/caf-debug-seu-podcast-de-tecnologia/201-cybersecurity-incidentes-envolvendo-agents-auton-mos',
+            'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/agents-attacks.jpg',
+            '2026-11-03 01:00:00', '["cybersecurity", "agentes autônomos", "ataques cibernéticos"]', 'published', 214, 7, 1, 1, '2026-11-03 01:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Status, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy)
+VALUES(
+          '#202 Desenvolvedores como maestros: quem está conduzindo o software na era da IA?',
+          '<p>O valor do desenvolvedor n&atilde;o est&aacute; apenas em produzir c&oacute;digo, mas em compreender o problema, tomar decis&otilde;es t&eacute;cnicas, conectar componentes, avaliar consequ&ecirc;ncias e garantir que o sistema funcione como um todo. A IA pode escrever uma implementa&ccedil;&atilde;o, sugerir uma arquitetura, criar testes e at&eacute; executar tarefas complexas. Mas algu&eacute;m precisa entender se aquela solu&ccedil;&atilde;o resolve o problema certo, se os dados est&atilde;o consistentes, se a aplica&ccedil;&atilde;o suporta a escala necess&aacute;ria e se as decis&otilde;es fazem sentido para o neg&oacute;cio.<br /><br /></p>
+            <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:<br /><br /></strong></p>
+            <ul>
+            <li>De autocomplete e copilotos para agentes capazes de executar tarefas de ponta a ponta</li>
+            <li>O que mudou na rotina de desenvolvimento com a chegada dos agentes de IA?</li>
+            <li>O desenvolvedor como condutor: distribuir tarefas, fornecer contexto, avaliar resultados e coordenar agentes</li>
+            <li>A met&aacute;fora da orquestra: os agentes s&atilde;o os m&uacute;sicos e o desenvolvedor &eacute; o maestro.</li>
+            <li>Estamos deixando de executar tarefas individualmente para supervisionar v&aacute;rias frentes de trabalho?</li>
+            <li>A import&acirc;ncia de saber delegar, fornecer contexto e avaliar o que foi produzido.</li>
+            <li>O novo gargalo: n&atilde;o necessariamente escrever c&oacute;digo, mas a aten&ccedil;&atilde;o humana e a capacidade de tomar decis&otilde;es.</li>
+            </ul>
+            <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+            <ul>
+            <li>💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+            <li>☕ Mais epis&oacute;dios:<a href="https://omny.fm/shows/cafe-de-bug"> Ou&ccedil;a aqui</a></li>
+            <li>📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+            <li>🌐 Comunidade Agile Brazil&nbsp; <a href="https://www.agilebrazil.com/2026/">Link</a></li>
+            <li>🌐 The Conductor Developer: <a href="https://martinfowler.com/rachels-ramblings/conductor-developer.html">Link</a>&nbsp;</li>
+            <li>🌐 DORA 2025&nbsp; The State of AI-assisted Software Development: <a href="https://dora.dev/research/2025/dora-report/">Link</a></li>
+            <li>🌐 <a href="https://github.blog/ai-and-ml/github-copilot/how-the-github-billing-team-uses-the-coding-agent-in-github-copilot-to-continuously-burn-down-technical-debt/?utm_source=chatgpt.com">How the GitHub billing team uses Copilot to reduce technical debt</a>: <a href="https://github.blog/ai-and-ml/github-copilot/how-the-github-billing-team-uses-the-coding-agent-in-github-copilot-to-continuously-burn-down-technical-debt/">Link</a></li>
+            <li>🌐 Craft Code Clube - clube do livro: <a href="https://github.blog/ai-and-ml/github-copilot/how-the-github-billing-team-uses-the-coding-agent-in-github-copilot-to-continuously-burn-down-technical-debt/">Link</a></li>
+            <li>🌐 Resumo do livro DDA :<a href="https://www.youtube.com/watch?v=6cBkZy3bFKo&amp;list=PLmXyIMnhW-55eY_bQKEROcCA42F-rsEN8">Link</a></li>
+            </ul>
+            <p><strong>👥 </strong><strong>Participantes</strong></p>
+            <ul>
+            <li>J&eacute;ssica Nathany &ndash; Senior Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+            </ul>
+            <p>🎧&nbsp;<strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+            <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <a href="mailto:debugcafe@gmail.com"><strong>debugcafe@gmail.com</strong></a></p>',
+            'O desenvolvedor toma decisões técnicas e garante que, na era da IA, as soluções resolvam o problema certo.',
+            'https://omny.fm/shows/caf-debug-seu-podcast-de-tecnologia/202-desenvolvedores-como-maestros-quem-est-conduzindo-o-software-na-era-da-ia',
+            'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/dev-orchestrator.jpg',
+            '2026-11-22 01:00:00', '["carreira", "desenvolvimento de software", "papéis", "arquitetura de software"]', 'published', 215, 4, 1, 1, '2026-11-22 01:00:00', null);
+
+/*INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Status, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy)
+VALUES(
+          '#199 Além do Scrum: Agilidade que gera impacto real no negócio',
+          '',
+          '',
+            'https://omny.fm/shows/caf-debug-seu-podcast-de-tecnologia/197-produto-al-m-das-features-o-que-todo-dev-precisa-entender-com-erika-oliveira',
+            'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/papo-produto.jpg',
+            '2026-08-27 01:00:00', '["carreira", "product owner", "negócio"]', 'published', 210, 4, 1, 1, '2026-05-19 01:00:00', null);*/
 
 -- Team ---
 INSERT INTO TeamMember (Name, Email, Bio, PodcastRole, GithubUrl, LinkedInUrl, ProfilePhotoUrl, JobTitle, IsActive, CreatedAt, UpdatedAt)
@@ -5082,4 +5288,3 @@ VALUES(
     'debugcafe@local.com', 
     'cf8676b53315b632ec681f2065d6e3c993c3ebaeb667338658b40983d7ce663e');
 -- SHA 256 password cafedebug123
-
